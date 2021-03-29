@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.zeniagist.speedreader"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Speed Reading App</name>
+
+  <description>
+      Speed reader using the jQuery Mobile UI is an IOS and Android app. This app takes user input text and displays one word at a time. User can change speed, pause, and reverse the word playback, as well as see their progress.
+  </description>
+
+  <author href="https://build.phonegap.com" email="zeniagist@gmail.com">
+      Zenia Gist
+  </author>
+
+</widget>
