@@ -1,0 +1,41 @@
+.container{
+  margin: 4em auto; 
+}
+
+.movie-card{
+  width: 50%;
+  float: left;
+  width: fit-content;
+  border: none;
+  margin: 10px 10px;
+  position: relative; /* For positioning the pseudo-element */
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  background-color: rgba($color: #944d45, $alpha: 0.5);
+}
+
+.movie-card::before{
+  /* Position the pseudo-element. */
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /* Create the box shadow at expanded size. */
+  box-shadow: 0 10px 50px 0 rgba(255, 255, 255, 0.5);
+
+  /* Hidden by default. */
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.movie-card:hover::before{
+  opacity: 1;
+}
+
+
+.movie-img {
+  border-radius: 5%; 
+}

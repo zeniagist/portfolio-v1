@@ -1,0 +1,80 @@
+.genre-view {
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  .genre-view {
+    display: flex;
+  }
+}
+
+.genre-card{
+  background-color: #222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 40px;
+}
+
+.genre-name, .genre-space, .genre-movies{
+  font-size: 6vw;
+  margin: 10px 0;
+  font-family: "Oxygen", sans-serif;
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .genre-name,
+.genre-space, .genre-movies {
+    font-size: 4.5vw;
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+}
+
+.genre-name, .genre-movies{
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.genre-space{
+  font-weight: bold;
+}
+
+
+.genre-description {
+  margin: 0 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+@media (min-width: 1100px) {
+  .genre-description {
+    margin: 0 100px;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.2em;
+  }
+}
+
+.genre-card,
+.genre-moreMovies {
+  margin-top: 10px;
+  border: none;
+}
+
+.genre-view-movies {
+  width: 75%;
+  align-self: center;
+}
+
+@media all and (max-width: 768px) {
+  .genre-view-movies {
+    width: 50%;
+  }
+}

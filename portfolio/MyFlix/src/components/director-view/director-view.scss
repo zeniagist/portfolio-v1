@@ -1,0 +1,83 @@
+.director-view {
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 700px) {
+  .director-view {
+    display: flex;
+  }
+}
+
+.director-card{
+  background-color: #222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 40px;
+}
+
+.director-name, .director-space, .director-movies{
+  font-size: 6vw;
+  margin: 10px 0;
+  font-family: "Oxygen", sans-serif;
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .director-name,
+.director-space, .director-movies {
+    font-size: 4.5vw;
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+}
+
+.director-name, .director-movies{
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.director-space{
+  font-weight: bold;
+}
+
+.director-bio {
+  margin: 0 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+@media (min-width: 1100px) {
+  .director-bio {
+    margin: 0 100px;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.2em;
+  }
+}
+
+.director-card,
+.director-moreMovies {
+  margin-top: 10px;
+  border: none;
+}
+
+.director-view-movies {
+  width: 50%;
+  align-self: center;
+}
+
+@media all and (max-width: 768px) {
+  .director-view-movies {
+    width: 100%;
+  }
+}
+
+.director-footer{
+  background-color: transparent;
+}
