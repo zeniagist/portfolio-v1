@@ -3,3 +3,10 @@
 
 # # Dependency directories
 node_modules/
+
+# # Ignored projects
+**/ComfyEssentials/*
+**/OnlineNotepad/*
+**/PortfolioWebsite/*
+portfolio/RideshareFinder
+portfolio/ToDoListApp
