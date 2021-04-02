@@ -7,3 +7,5 @@ node_modules/
 # # Ignored projects
 portfolio/ComfyEssentials/*
 portfolio/PortfolioWebsite/*
+portfolio/OnlineNotepad/*
+portfolio/RideshareFinder/*
