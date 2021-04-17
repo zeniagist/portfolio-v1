@@ -174,8 +174,8 @@
         <ul data-animate="fadeInUp" id="filter">
           <li class="active"><a href="#" data-filter="all">All</a></li>
           <li><a href="#" data-filter="react">React</a></li>
-          <li><a href="#" data-filter="javascript">Javascript</a></li>
           <li><a href="#" data-filter="angular">Angular</a></li>
+          <li><a href="#" data-filter="javascript">Javascript</a></li>
         </ul>
         <div id="detail">
           <div class="row">
@@ -193,6 +193,45 @@
         <div id="references-masonry" data-animate="fadeInUp">
           <div class="row">
 
+            <!--EventMeetup-->
+            <div data-category="react" class="reference-item col-lg-4 col-md-6">
+              <div class="reference">
+                <a href="#">
+                  <img src="img/eventmeetupmockup.jpg" alt="" class="img-fluid" id="reference">
+                  <div class="overlay">
+                    <div class="inner">
+                      <h3 class="h4 reference-title">Event Meetup App</h3>
+                      <p>React, Node, Gherkin, Google Calendar API</p>
+                    </div>
+                  </div>
+                </a>
+                <div data-images="img/eventmeetup1.jpg, img/eventmeetup2.jpg, img/eventmeetup3.jpg"
+                  class="sr-only reference-description">
+                  <p>Event Meetup App is a serverless, progressive web application (PWA) with React
+                    using the Google Calendar API to fetch upcoming events.
+                  </p>
+                  <p>Users can search for a city and view a list of events hosted in the selected city.
+                    The app also allows a user to view charts that display how many events will take
+                    place on certain days as well view the popularity of the event.
+                  </p>
+                  <p><strong>Tech Specs: React, Node, Gherkin, Google Calendar API</strong></p>
+                  <p class="buttons text-center">
+                    <a onclick="window.open('https://zeniagist.github.io/eventmeetup/', ''); return false"
+                      href="javascript:void(0);" class="btn btn-outline-primary">
+                      <i class="fa fa-globe" style="font-size:24px"></i>
+                      Visit website
+                    </a>
+                    <a onclick="window.open('https://github.com/zeniagist/eventmeetup', ''); return false"
+                      href="javascript:void(0);" class="btn btn-outline-primary">
+                      <i class="fa fa-github" style="font-size:23px"></i>
+                      Github Source Code
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--end of EventMeetup-->
+
             <!--myFlix-->
             <div data-category="react" class="reference-item col-lg-4 col-md-6">
               <div class="reference">
@@ -207,10 +246,6 @@
                 </a>
                 <div data-images="img/myflix1.jpg, img/myflix2.jpg, img/myflix3.jpg"
                   class="sr-only reference-description">
-                  <!-- <p>myFlix is for movie enthusiasts who crave a website that organizes their favorite movies.
-                    Users will be able to use it whenever they want to view information about
-                    different movies or update their user information
-                  </p> -->
                   <p>Frontend and Backend of the myFlix MERN stack app built with React, handling data flow via Redux.
                     Provides users with the access to information about different movies, directors and genres.</p>
                   <p><strong>Tech Specs: React, Node, Mongoose, Express, Javascript</strong></p>
